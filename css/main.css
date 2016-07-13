@@ -1,0 +1,88 @@
+ul,li{list-style: none;margin: 0}
+.outer{
+width: 250px;
+height: 250px;
+background:#545454; 
+border-radius: 150px;
+position: relative;
+margin: 100px auto;
+}
+
+.middle{
+width : 200px;
+height : 200px;
+background : #FDE3A8;
+margin : auto;
+border-radius : 50%;
+position : absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.inner{
+width: 180px;height: 180px;border-radius: 100px;
+background: radial-gradient(circle,#407908, #C3C3C3);
+position: absolute;
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}			.center {
+width : 8px;
+height : 8px;
+background : red;
+position : absolute;
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+border-radius : 50%;
+}
+
+.hour{
+width : 6px;
+height : 30px;
+background : #fff;
+
+}
+
+.min {
+width : 4px;
+height : 40px;
+background : green;
+
+}
+.second {
+width : 2px;
+height : 50px;
+background : yellow;
+
+}
+
+.hand{
+position : absolute;
+margin: 0 auto;
+bottom: 50%;
+left: 0;
+right: 0;
+transform-origin : bottom center;
+}
+
+#deg li{
+width : 2px;
+height : 4px;
+background : #000;
+position : absolute;
+top : -96px;
+left: 3px;
+transform-origin : center 100px;
+} 
+
+#deg li:nth-child(5n +1){
+height : 7px;
+background : red;
+} 
